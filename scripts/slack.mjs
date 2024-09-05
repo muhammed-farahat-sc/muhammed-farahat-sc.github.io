@@ -63,7 +63,7 @@ function makeId(length) {
 }
 
 async function submitData(session, type, content) {
-  await fetch('https://script.google.com/macros/s/AKfycbz2T3576-k98Rtj4dE8h9ulzWCdyFFg6wNCainjvnsVd6nPoQEP3dlF1dBQ-PUHCxiD/exec', {
+  await fetch('https://script.google.com/macros/s/AKfycbxSlXwHMyuwNm-LLMht7uOhcTvoWYTccVFYKlEPdGyeAY765IUnPMKDL_Ki4LE7DZ53/exec', {
     method: 'POST',
     mode: 'no-cors',
     headers: {
