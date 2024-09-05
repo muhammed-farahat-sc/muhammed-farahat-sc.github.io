@@ -65,6 +65,7 @@ function makeId(length) {
 async function submitData(session, type, content) {
   await fetch('https://script.google.com/macros/s/AKfycbz2T3576-k98Rtj4dE8h9ulzWCdyFFg6wNCainjvnsVd6nPoQEP3dlF1dBQ-PUHCxiD/exec', {
     method: 'POST',
+    mode: 'no-cors',
     headers: {
       'Content-Type': 'application/json'
     },
